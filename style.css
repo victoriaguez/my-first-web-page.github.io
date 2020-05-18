@@ -1,0 +1,68 @@
+
+body {
+	font-family: arial;
+	font-size : 25px;
+	background : green;
+	color : black;
+}
+
+h1, h2, img, h3, p, a, h6, iframe {
+	text-align: center;
+}
+
+h1, h2 {
+	font-size: 32px;
+	font-family: arial;
+}
+
+p, ul, ol {
+	font-size: 20px
+}
+
+h4, h5, ul, ol, {
+	text-align: left;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+	object-fit: ezcover;
+}
+
+div {
+	background: lightgreen;
+}
+
+.flex {
+	display : flex;
+	justify-content: space-between;
+}
+
+.cadre {
+	background: lightblue;
+	border : 3px solid black;
+	/*margin : 100px;*/
+	padding: 30px 70px 5px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px gray;
+}
+
+.margin-100px {
+	margin: 100px]
+}
+
+.btn-pink {
+	display : inline-block;
+	margin : 15px;
+	border : 2px solid pink;
+	border-radius: 5px ;
+	color: white;
+	background : lightgreen;
+	box-shadow: 5px 5px 10px grey;
+	padding: 15px;
+}
+
+
+.center{
+	display : center;
+}
